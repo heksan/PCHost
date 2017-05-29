@@ -82,11 +82,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="zMics\cap1.PNG" />
-    <Content Include="zMics\cap2.PNG" />
-    <Content Include="zMics\cap3.PNG" />
-    <Content Include="zMics\cap4.PNG" />
-    <Content Include="zMics\cap5.PNG" />
+    <Content Include="zMics\cap1.png" />
+    <Content Include="zMics\cap2.png" />
+    <Content Include="zMics\cap3.png" />
+    <Content Include="zMics\cap4.png" />
+    <Content Include="zMics\cap5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
