@@ -80,8 +80,13 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="zMics\" />
+    <Content Include="zMics\cap1.PNG" />
+    <Content Include="zMics\cap2.PNG" />
+    <Content Include="zMics\cap3.PNG" />
+    <Content Include="zMics\cap4.PNG" />
+    <Content Include="zMics\cap5.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
