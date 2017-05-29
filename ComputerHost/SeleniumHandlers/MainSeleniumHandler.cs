@@ -26,9 +26,11 @@ namespace ComputerHost.SeleniumHandlers
         private static IWebDriver InitBrowser()
         {
             ChromeOptions options = new ChromeOptions();
+            var driverService = ChromeDriverService.CreateDefaultService();
+            driverService.HideCommandPromptWindow = true;
             options.AddArgument("--whitelisted-ips=\"\"");
             options.AddArgument("disable-infobars");
-            var driver = new ChromeDriver();
+            var driver = new ChromeDriver(driverService,options);            
             driver.Manage().Window.Maximize();
             return driver;
         }

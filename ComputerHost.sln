@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerHost", "ComputerHost\ComputerHost.csproj", "{93F9B62D-6BE6-4F9D-A0DA-E90BA4DB9795}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{0560439B-7001-4D0F-9AE2-0DA2550E3C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCJackHost", "PCJackHost\PCJackHost.csproj", "{A0D1FED7-E289-430E-99B7-09688A5A569F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0560439B-7001-4D0F-9AE2-0DA2550E3C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0560439B-7001-4D0F-9AE2-0DA2550E3C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0560439B-7001-4D0F-9AE2-0DA2550E3C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D1FED7-E289-430E-99B7-09688A5A569F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D1FED7-E289-430E-99B7-09688A5A569F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D1FED7-E289-430E-99B7-09688A5A569F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D1FED7-E289-430E-99B7-09688A5A569F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
